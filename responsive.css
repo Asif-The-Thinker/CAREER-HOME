@@ -1,0 +1,137 @@
+/* Laptop Devices (up to 1200px) */
+
+@media screen and (max-width: 1200px) {
+    .banner-content h1 {
+        font-size: 42px;
+        margin-bottom: 15px;
+    }
+
+    .second-banner {
+        gap: 20px;
+    }
+
+    .second-banner-content h3 {
+        font-size: 28px;
+        opacity: 70%;
+        margin-bottom: 13px;
+    }
+
+    .second-banner-content p {
+        font-size: 14px;
+        margin-bottom: 22px;
+    }
+
+    footer {
+        padding: 22px 110px;
+    }
+
+    .footer-content span {
+        font-size: 17px;
+        font-weight: 600;
+    }
+}
+
+/* Tablets (768px to 1023px) */
+
+@media screen and (max-width: 1023px) {
+
+    .banner {
+        padding: 32px;
+    }
+
+    .second-banner {
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 32px;
+    }
+
+    .second-banner-image {
+        max-width: 100%;
+    }
+
+    .card-content {
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .card {
+        width: 100%;
+        padding: 32px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 26px;
+        padding: 32px;
+    }
+}
+
+/* Mobile phones (up to 767px) */
+
+@media screen and (max-width: 767px) {
+    .banner-content h1 {
+        font-size: 32px;
+    }
+
+    .banner-content p,
+    .question p,
+    .question-two p,
+    .target-content p {
+        font-size: 14px;
+    }
+
+    .second-banner-content h3 {
+        font-size: 24px;
+    }
+
+    .video{
+    border-radius: 16px;
+    padding: 8px;
+    border: 2px solid #0D132120;
+}
+
+    .video iframe {
+        height: 240px;
+    }
+
+    .btn-yellow {
+        font-size: 12px;
+        padding: 12px 10px;
+    }
+
+    .btn2 {
+        padding: 12px 24px;
+    }
+
+    .header-content {
+        padding: 16px 0;
+    }
+
+    .card {
+        text-align: center;
+        width: 90%;
+        padding: 24px;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-content span {
+        font-size: 16px;
+    }
+
+    .logo {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .second-banner-content,
+    .question,
+    .target-content {
+        text-align: center;
+    }
+}
